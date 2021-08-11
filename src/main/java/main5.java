@@ -84,7 +84,7 @@ public class main5 {
     @Test
     public void UploaFile(){
         WebElement uploadElement = driver.findElement(By.name("pic"));
-        uploadElement.click();
+        uploadElement.sendKeys("C:\\Users\\edenmm\\Downloads\\SeleniumMaven\\SeleniumMaven\\element-screenshott");
     }
 
     @Test
