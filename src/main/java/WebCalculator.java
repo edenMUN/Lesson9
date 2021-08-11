@@ -7,7 +7,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class webCalculator {
+public class WebCalculator {
     public static WebDriver driver;
     public int number = 4;
 

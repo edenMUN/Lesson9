@@ -10,7 +10,7 @@ import java.sql.Driver;
 import java.util.ArrayList;
 import java.util.List;
 
-public class main6 {
+public class Main6 {
     public static WebDriver driver;
 
     @BeforeClass

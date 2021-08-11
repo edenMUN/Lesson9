@@ -1,22 +1,24 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.util.Arrays;
-
-public class withoutExtensions {
+public class WebsiteTitle {
     public static WebDriver driver;
 
-    @Test
+    @BeforeClass
     public static void BeforeClassonce() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\edenmm\\Downloads\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
-        driver.get("https://www.youtube.com/");
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-extensions");
-        driver = new ChromeDriver(options);
+        driver.get("https://www.google.com/");
+    }
+
+
+    @Test
+    public void Websitetitle() {
+        String webtitle = "GOOGLE";
+        String ActualTitle = driver.getTitle();
+        Assert.assertEquals(ActualTitle, webtitle);
     }
 }

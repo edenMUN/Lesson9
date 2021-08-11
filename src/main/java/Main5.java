@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.io.IOException;
 
-public class main5 {
+public class Main5 {
     public static WebDriver driver;
 //    public WebElement element;
 
