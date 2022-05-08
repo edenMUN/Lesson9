@@ -15,7 +15,7 @@ public class Main6 {
 
     @BeforeClass
     public static void BeforeClassonce() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\edenmm\\Downloads\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\edenmm\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://dgotlieb.github.io/Controllers/");
     }

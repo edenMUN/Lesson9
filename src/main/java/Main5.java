@@ -1,5 +1,4 @@
 import org.apache.commons.io.FileUtils;
-import org.jetbrains.annotations.TestOnly;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -84,7 +83,8 @@ public class Main5 {
     @Test
     public void UploaFile(){
         WebElement uploadElement = driver.findElement(By.name("pic"));
-        uploadElement.sendKeys("C:\\Users\\edenmm\\Downloads\\SeleniumMaven\\SeleniumMaven\\element-screenshott");
+        uploadElement.click();
+//        uploadElement.sendKeys("C:\\Users\\edenmm\\Downloads\\SeleniumMaven\\SeleniumMaven\\element-screenshott.png");
     }
 
     @Test

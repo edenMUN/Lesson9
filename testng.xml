@@ -1,0 +1,8 @@
+<suite name = "Suite">
+    <test name = "Test">
+        <classes>
+            <class name = "repository.TestExample">
+            </class>
+        </classes>
+    </test>
+</suite>
