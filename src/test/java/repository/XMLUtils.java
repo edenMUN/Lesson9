@@ -16,7 +16,7 @@ public class XMLUtils {
          * @throws Exception
          */
         public static String getData(String keyName) throws Exception{
-            File fXmlFile = new File("C:\\Users\\edenmm\\IdeaProjects\\Coview\\src\\main\\resources\\data.xml");
+            File fXmlFile = new File("C:\\Users\\edenmm\\IdeaProjects\\Pomvom\\src\\main\\resources\\data.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse(fXmlFile);
