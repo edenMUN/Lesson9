@@ -16,7 +16,7 @@ public class DriverSingleton {
             try {
                 type = XMLUtils.getData("browserType");
                 if (type.equals("Chrome")){
-                    System.setProperty("webdriver.chrome.driver", "C:\\Users\\edenmm\\Downloads\\chromedriver_win32 (6)\\chromedriver.exe");
+                    System.setProperty("webdriver.chrome.driver", "C:\\Users\\edenmm\\IdeaProjects\\Pomvom\\src\\main\\resources\\chromedriver.exe");
                     driver = new ChromeDriver();
                 }else if (type.equals("FF")){
                     System.setProperty("webdriver.firefox.driver", "C:\\Users\\edenmm\\Downloads\\geckodriver-v0.29.1-win64.zip\\geckodriver.exe");
